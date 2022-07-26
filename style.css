@@ -13,7 +13,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #f3eaea;
+  background-color: #f3ebeb;
   column-gap: 30px;
 }
 .form {
@@ -81,12 +81,12 @@ form {
 }
 .field button {
   color: #fff;
-  background-color: #a32828;
+  background-color: #0a6a06;
   transition: all 0.3s ease;
   cursor: pointer;
 }
 .field button:hover {
-  background-color: #016dcb;
+  background-color: #074305;
 }
 .form-link {
   text-align: center;
@@ -135,13 +135,18 @@ a.facebook .facebook-icon,
 a.google .google-icon {
   height: 28px;
   width: 28px;
-  color: #0171d3;
   font-size: 20px;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: #fff;
+}
+.google-icon {
+  color: #e71b1b;
+}
+.facebook-icon {
+  color: #0171d3;
 }
 .facebook-icon,
 .google-icon {
